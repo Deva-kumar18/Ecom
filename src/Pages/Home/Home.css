@@ -1,0 +1,66 @@
+
+
+
+li{
+    list-style-type: none;
+}
+.home{
+    height: 100vh;
+    width: 98%;
+  
+    
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+   padding-top: 78px;
+  
+
+}
+
+.add-cart{
+    border-radius: 6px;
+    background-color: yellow;
+    width: 120px;
+    border: none;
+   
+}
+.col-d{
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+    padding: 2vw;
+    border-right-color: orchid;
+    
+}
+.col-d:hover{
+    -webkit-box-shadow: -2px 2px 24px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 24px -1px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 24px -1px rgba(0,0,0,0.75);
+}
+.p-listing{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+   
+}
+.p-listing .img-fluid{
+    height: 24vh;
+}
+.p-listing:hover .img-fluid {
+    transform: scale(1.1); 
+  }
+.p-name{
+    font-family: Russo One;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.p-price{
+    font-weight: bold;
+    text-align: center;
+}
