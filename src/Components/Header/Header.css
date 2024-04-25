@@ -32,3 +32,16 @@
     margin-right: 2px;
 }
 
+@media screen and (min-width: 100px) and (max-width: 600px) {
+    .s-input{
+        display: none;
+    }
+    .s-icon{
+        display: none;
+    }
+    .shop-head{
+        margin-left: 26vw;
+    }
+   
+  }
+  

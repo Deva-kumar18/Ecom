@@ -2,6 +2,7 @@ import React, { useRef, useState } from 'react';
 import './FilterBar.css'
 import { useDispatch } from 'react-redux';
 import { toggleFilter } from '../../Redux/Features/cartSlice'
+import SearchIcon from '@mui/icons-material/Search';
 import DehazeIcon from '@mui/icons-material/Dehaze';
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -39,6 +40,7 @@ const YourComponent = () => {
       </div>
       <div className={initialClassName}  ref={sidebarRef}>
         <div className='fby-c-container'>
+       
             <h4>Filter By Catagory</h4>
       <label>
         <input className='fby-category' type="checkbox"  />

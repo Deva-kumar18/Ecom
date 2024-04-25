@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
   return (
    <div className='header'>
-    <h1>Shoppy</h1>
+    <h1 className='shop-head'>Shoppy</h1>
     <div className='search'><input className='s-input' type='search'placeholder='search product....'/> <div className='s-icon'><SearchIcon /></div></div>
     <Link to="/cartpage"  style={{ textDecoration: 'none', color: 'inherit' }}>
     <ShoppingCartIcon style={{ fontSize: '6vh' }} />

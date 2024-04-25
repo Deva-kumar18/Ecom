@@ -16,9 +16,9 @@ const Home = () => {
     <div className='home container-fluid'>
         <Header/>
         <FilterBar/>
-        <ul  className='row row-cols-sm-4 row-cols-3 row-cols-md-6 h-10  '>
+        <ul  className='row row-cols-sm-4 row-cols-3  row-cols-md-6 h-10  '>
         {products.map(product => (
-          <li className='col-d mb-4 d-flex align-items-center flex-column m-1'   key={product.id}>
+          <li className='col-d mb-4 d-flex align-items-center  p-design flex-column m-1'   key={product.id}>
               <Link className='p-listing' to={`productdetails/${product.id}`}  style={{ textDecoration: 'none', color: 'inherit' }}> 
             <img className='img-fluid' src={product.image} alt={product.pname} />
             <h3 className='p-name'>{product.pname}</h3>
