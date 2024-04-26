@@ -9,7 +9,9 @@
     }
 } */ 
 
-
+.cart-products{
+    padding-bottom: 6vh;
+}
 .c-page{
     padding: 4vw;
 }
