@@ -4,6 +4,7 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import SearchIcon from '@mui/icons-material/Search';
 import { useDispatch } from 'react-redux';
 import { filterByName } from '../../Redux/Features/cartSlice';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const dispatch = useDispatch();
@@ -30,7 +31,8 @@ const Header = () => {
           <SearchIcon />
         </div>
       </div>
-      <ShoppingCartIcon style={{ fontSize: '6vh' }} />
+      <Link to="/cartpage">
+      <ShoppingCartIcon style={{ fontSize: '6vh' ,color:"black" }}/> </Link>
     </div>
   );
 };

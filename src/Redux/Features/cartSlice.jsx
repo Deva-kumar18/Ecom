@@ -84,6 +84,7 @@ const initialState = {
       price: 1000,
       category: "Airpods",
       image: Airpod11,
+      count:0,
      
     }, {
         id: 2,
@@ -91,6 +92,7 @@ const initialState = {
         price: 1070,
         category: "Airpods",
         image: Airpod21,
+        count:0,
        
       },
       {
@@ -99,6 +101,7 @@ const initialState = {
         price: 1570,
         category: "Airpods",
         image: Airpod31,
+        count:0,
        
       },
       {
@@ -107,6 +110,7 @@ const initialState = {
         price: 1570,
         category: "Airpods",
         image: Airpod41,
+        count:0,
        
       },
       {
@@ -115,6 +119,7 @@ const initialState = {
         price: 1570,
         category: "Airpods",
         image: Airpod51,
+        count:0,
        
       },
       {
@@ -123,6 +128,7 @@ const initialState = {
         price: 1770,
         category: "Airpods",
         image: Airpod61,
+        count:0,
         
       },
       {
@@ -131,6 +137,7 @@ const initialState = {
         price: 1780,
         category: "Airpods",
         image: Airpod71,
+        count:0,
         
       },
       {
@@ -139,6 +146,7 @@ const initialState = {
         price: 1480,
         category: "Airpods",
         image: Airpod81,
+        count:0,
        
       },
       {
@@ -147,6 +155,7 @@ const initialState = {
         price: 1480,
         category: "Airpods",
         image: Airpod91,
+        count:0,
        
       },
       {
@@ -155,6 +164,7 @@ const initialState = {
         price: 1480,
         category: "Airpods",
         image: Airpod101,
+        count:0,
       
       },
       {
@@ -163,6 +173,7 @@ const initialState = {
         price: 1480,
         category: "Camera",
         image: Camera11,
+        count:0,
        
       },
       {
@@ -171,6 +182,7 @@ const initialState = {
         price: 1480,
         category: "Camera",
         image: Camera21,
+        count:0,
       },
       {
         id: 13,
@@ -178,6 +190,7 @@ const initialState = {
         price: 140080,
         category: "Camera",
         image: Camera3,
+        count:0,
       },
       {
         id: 14,
@@ -185,6 +198,7 @@ const initialState = {
         price: 148760,
         category: "Camera",
         image: Camera4,
+        count:0,
       },
       {
         id: 15,
@@ -192,6 +206,7 @@ const initialState = {
         price: 148760,
         category: "Camera",
         image: Camera5,
+        count:0,
       },
       {
         id: 16,
@@ -199,6 +214,7 @@ const initialState = {
         price: 140760,
         category: "Camera",
         image: Camera6,
+        count:0,
       },
       {
         id: 17,
@@ -206,6 +222,7 @@ const initialState = {
         price: 140760,
         category: "Earphone",
         image: Earphone1,
+        count:0,
       },
       {
         id: 18,
@@ -213,6 +230,7 @@ const initialState = {
         price: 1407,
         category: "Earphone",
         image: Earphone2,
+        count:0,
       },
       {
         id: 19,
@@ -220,6 +238,7 @@ const initialState = {
         price: 1460,
         category: "Earphone",
         image: Earphone3,
+        count:0,
       },
       {
         id: 20,
@@ -227,6 +246,7 @@ const initialState = {
         price: 1600,
         category: "Earphone",
         image: Earphone4,
+        count:0,
       },
       {
         id: 21,
@@ -234,6 +254,7 @@ const initialState = {
         price: 1060,
         category: "Earphone",
         image: earphone5,
+        count:0,
       },
       {
         id: 22,
@@ -241,6 +262,7 @@ const initialState = {
         price: 1400,
         category: "Earphone",
         image: Earphone6,
+        count:0,
       },
       {
         id: 23,
@@ -248,6 +270,7 @@ const initialState = {
         price: 15000,
         category: "Mobile",
         image: Mobile1,
+        count:0,
       },
       {
         id: 24,
@@ -255,6 +278,7 @@ const initialState = {
         price: 15500,
         category: "Mobile",
         image: Mobile2,
+        count:0,
       },
       {
         id: 25,
@@ -262,6 +286,7 @@ const initialState = {
         price: 16000,
         category: "Mobile",
         image: Mobile3,
+        count:0,
       },
       {
         id: 26,
@@ -269,6 +294,7 @@ const initialState = {
         price: 11000,
         category: "Mobile",
         image: Mobile4,
+        count:0,
       },
       {
         id: 27,
@@ -276,6 +302,7 @@ const initialState = {
         price: 13000,
         category: "Mobile",
         image: Mobile5,
+        count:0,
       },
       {
         id: 28,
@@ -283,6 +310,7 @@ const initialState = {
         price: 17000,
         category: "Mobile",
         image: Mobile6,
+        count:0,
       },
       {
         id: 29,
@@ -290,6 +318,7 @@ const initialState = {
         price: 18000,
         category: "Mobile",
         image: Mobile7,
+        count:0,
       },
       {
         id: 30,
@@ -297,6 +326,7 @@ const initialState = {
         price: 20000,
         category: "Mobile",
         image: Mobile8,
+        count:0,
       },
       {
         id: 31,
@@ -304,6 +334,7 @@ const initialState = {
         price: 22000,
         category: "Mobile",
         image: Mobile9,
+        count:0,
       },
       {
         id: 32,
@@ -311,6 +342,7 @@ const initialState = {
         price: 15000,
         category: "Mobile",
         image: Mobile10,
+        count:0,
       },
       {
         id: 33,
@@ -318,6 +350,7 @@ const initialState = {
         price: 600,
         category: "Mouse",
         image: Mouse1,
+        count:0,
       },
       {
         id: 34,
@@ -325,6 +358,7 @@ const initialState = {
         price: 800,
         category: "Mouse",
         image: Mouse2,
+        count:0,
       },
       {
         id: 35,
@@ -332,6 +366,7 @@ const initialState = {
         price: 700,
         category: "Mouse",
         image: Mouse3,
+        count:0,
       },
       {
         id: 36,
@@ -339,6 +374,7 @@ const initialState = {
         price: 300,
         category: "Mouse",
         image: Mouse4,
+        count:0,
       },
       {
         id: 37,
@@ -346,6 +382,7 @@ const initialState = {
         price: 400,
         category: "Mouse",
         image: Mouse5,
+        count:0,
       },
       {
         id: 38,
@@ -353,6 +390,7 @@ const initialState = {
         price: 680,
         category: "Mouse",
         image: Mouse6,
+        count:0,
       },
       {
         id: 39,
@@ -360,6 +398,7 @@ const initialState = {
         price: 300,
         category: "Mouse",
         image: Mouse7,
+        count:0,
       },
       {
         id: 40,
@@ -367,6 +406,7 @@ const initialState = {
         price: 900,
         category: "Mouse",
         image: Mouse8,
+        count:0,
       },
       {
         id: 41,
@@ -374,6 +414,7 @@ const initialState = {
         price: 900,
         category: "Speaker",
         image: Speaker1,
+        count:0,
       },
       {
         id: 42,
@@ -381,6 +422,7 @@ const initialState = {
         price: 400,
         category: "Speaker",
         image: Speaker2,
+        count:0,
       },
       {
         id: 43,
@@ -388,6 +430,7 @@ const initialState = {
         price: 900,
         category: "Speaker",
         image: Speaker3,
+        count:0,
       },
       {
         id: 44,
@@ -395,6 +438,7 @@ const initialState = {
         price: 700,
         category: "Speaker",
         image: Speaker4,
+        count:0,
       },
       {
         id: 45,
@@ -402,6 +446,7 @@ const initialState = {
         price: 750,
         category: "Speaker",
         image: Speaker5,
+        count:0,
       },
       {
         id: 46,
@@ -409,6 +454,7 @@ const initialState = {
         price: 950,
         category: "Speaker",
         image: Speaker6,
+        count:0,
       },
       {
         id: 47,
@@ -416,6 +462,7 @@ const initialState = {
         price: 2900,
         category: "Speaker",
         image: Speaker7,
+        count:0,
       },
       {
         id: 48,
@@ -423,6 +470,7 @@ const initialState = {
         price: 1900,
         category: "Speaker",
         image: Speaker8,
+        count:0,
       },
       {
         id: 49,
@@ -430,6 +478,7 @@ const initialState = {
         price: 1200,
         category: "Trimmer",
         image: Trimmer1,
+        count:0,
       },
       {
         id: 50,
@@ -437,6 +486,7 @@ const initialState = {
         price: 1200,
         category: "Trimmer",
         image: Trimmer2,
+        count:0,
       },
       {
         id: 51,
@@ -444,6 +494,7 @@ const initialState = {
         price: 1400,
         category: "Trimmer",
         image: Trimmer3,
+        count:0,
       },
       {
         id: 52,
@@ -451,6 +502,7 @@ const initialState = {
         price: 2300,
         category: "Trimmer",
         image: Trimmer4,
+        count:0,
       },
       {
         id: 53,
@@ -458,6 +510,7 @@ const initialState = {
         price: 1700,
         category: "Trimmer",
         image: Trimmer5,
+        count:0,
       },
       {
         id: 54,
@@ -465,6 +518,7 @@ const initialState = {
         price: 1100,
         category: "Trimmer",
         image: Trimmer6,
+        count:0,
       },
       {
         id: 55,
@@ -472,6 +526,7 @@ const initialState = {
         price: 1800,
         category: "Trimmer",
         image: Trimmer7,
+        count:0,
       },
       {
         id: 56,
@@ -479,6 +534,7 @@ const initialState = {
         price: 1500,
         category: "Trimmer",
         image: Trimmer8,
+        count:0,
       },
       {
         id: 57,
@@ -486,6 +542,7 @@ const initialState = {
         price: 15000,
         category: "Tv",
         image: Tv1,
+        count:0,
       },
       {
         id: 58,
@@ -493,6 +550,7 @@ const initialState = {
         price: 18000,
         category: "Tv",
         image: Tv2,
+        count:0,
       },
       {
         id: 59,
@@ -500,6 +558,7 @@ const initialState = {
         price: 12000,
         category: "Tv",
         image: Tv3,
+        count:0,
       },
       {
         id: 60,
@@ -507,6 +566,7 @@ const initialState = {
         price: 12500,
         category: "Tv",
         image: Tv4,
+        count:0,
       },
       {
         id: 61,
@@ -514,6 +574,7 @@ const initialState = {
         price: 14500,
         category: "Tv",
         image: Tv5,
+        count:0,
       },
       {
         id: 62,
@@ -521,6 +582,7 @@ const initialState = {
         price: 13500,
         category: "Tv",
         image: Tv6,
+        count:0,
       },
       {
         id: 63,
@@ -528,6 +590,7 @@ const initialState = {
         price: 16500,
         category: "Tv",
         image: Tv7,
+        count:0,
       },
       {
         id: 64,
@@ -535,6 +598,7 @@ const initialState = {
         price: 11500,
         category: "Tv",
         image: Tv8,
+        count:0,
       },
       {
         id: 65,
@@ -542,6 +606,7 @@ const initialState = {
         price: 17500,
         category: "Tv",
         image: Tv9,
+        count:0,
       },
       {
         id: 66,
@@ -556,6 +621,7 @@ const initialState = {
         price: 3000,
         category: "Watch",
         image: Watch1,
+        count:0,
       },
       {
         id: 68,
@@ -563,6 +629,7 @@ const initialState = {
         price: 2000,
         category: "Watch",
         image: Watch2,
+        count:0,
       },
       {
         id: 69,
@@ -570,6 +637,7 @@ const initialState = {
         price: 3500,
         category: "Watch",
         image: Watch3,
+        count:0,
       },
       {
         id: 70,
@@ -577,6 +645,7 @@ const initialState = {
         price: 3800,
         category: "Watch",
         image: Watch4,
+        count:0,
       },
       {
         id: 71,
@@ -584,6 +653,7 @@ const initialState = {
         price: 2800,
         category: "Watch",
         image: Watch5,
+        count:0,
       },
       {
         id: 72,
@@ -591,6 +661,7 @@ const initialState = {
         price: 3060,
         category: "Watch",
         image: Watch6,
+        count:0,
       },
       {
         id: 73,
@@ -598,6 +669,7 @@ const initialState = {
         price: 3000,
         category: "Watch",
         image: Watch7,
+        count:0,
       },
       {
         id: 74,
@@ -605,10 +677,15 @@ const initialState = {
         price: 2850,
         category: "Watch",
         image: Watch8,
+        count:0,
       },
      
     
-  ], filteredProducts:[]
+  ], filteredProducts:[],
+  cart: {
+    items: [],
+    total: 0 
+  }
  
 };
 
@@ -644,10 +721,49 @@ const cartSlice = createSlice({
         );
       }
     },
+    addToCart(state, action) {
+      const { productId } = action.payload;
+      const productToAdd = state.products.find(item => item.id === productId);
+      if (productToAdd) {
+          const existingItemIndex = state.cart.items.findIndex(item => item.id === productId);
+          if (existingItemIndex !== -1) {
+              state.cart.items[existingItemIndex].count += 1;
+          } else {
+              state.cart.items.push({ ...productToAdd, count: 1 });
+          }
+          
+      }
+  },
+  countAdd(state, action) {
+    const { id } = action.payload;
+    const itemIndex = state.cart.items.findIndex(item => item.id === id);
+    if (itemIndex !== -1) {
+        state.cart.items[itemIndex].count += 1;
+    }
+},
+countLess(state, action) {
+  const { id } = action.payload;
+  const itemIndex = state.cart.items.findIndex(item => item.id === id);
+  if (itemIndex !== -1 && state.cart.items[itemIndex].count > 0) {
+      state.cart.items[itemIndex].count -= 1;
+      if (state.cart.items[itemIndex].count === 0) {
+          state.cart.items.splice(itemIndex, 1);
+      }
+  }
+},
+removeItem(state, action) {
+  const { id } = action.payload;
+  const updatedItems = state.cart.items.filter(item => item.id !== id);
+  state.cart.items = updatedItems;
+}
+
+
+
+  
   }
 });
 
-export const{filterByCategory,filterByPriceRange,filterByPrice,filterByName}= cartSlice.actions;
+export const{filterByCategory,filterByPriceRange,filterByPrice,filterByName,countAdd,addToCart,countLess,removeItem}= cartSlice.actions;
 
 
 export default cartSlice.reducer;
