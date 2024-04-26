@@ -625,11 +625,29 @@ const cartSlice = createSlice({
           categories.includes(product.category)
         );
       }
-    }, 
+    },
+    filterByPriceRange: (state, action) => {
+      const { minPrice, maxPrice } = action.payload;
+      state.filteredProducts = state.products.filter(product => product.price >= minPrice && product.price <= maxPrice);
+    },
+    filterByPrice: (state, action) => {
+      const { price } = action.payload;
+      state.filteredProducts = state.products.filter(product => product.price >= price);
+    },
+    filterByName(state, action) {
+      const { query } = action.payload;
+      if (!query.trim()) {
+        state.filteredProducts = [...state.products];
+      } else {
+        state.filteredProducts = state.products.filter(product =>
+          product.pname.toLowerCase().includes(query.toLowerCase())
+        );
+      }
+    },
   }
 });
 
-export const{filterByCategory}= cartSlice.actions;
+export const{filterByCategory,filterByPriceRange,filterByPrice,filterByName}= cartSlice.actions;
 
 
 export default cartSlice.reducer;
