@@ -11,13 +11,15 @@
 
 
 .c-page{
-    padding: 2vw;
+    padding: 4vw;
 }
 .p-unset{
     padding: 0;
 }
 .p-cont{
+    text-align: center;
 }
+
 
 .remove-btn{
     background-color: red;
@@ -30,5 +32,11 @@
 .btn-cont{
     display: flex;
     column-gap: 20px;
+    justify-content: center;
 
+
+}
+.e-c-a{
+    text-align: center;
+    font-size: 20px;
 }
