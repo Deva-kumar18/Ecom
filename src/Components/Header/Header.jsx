@@ -38,8 +38,8 @@ const Header = () => {
         </div>
       </div>
       <div className='cart-badge'>
-        <div className='badge'>{totalItems}</div>
-        <Link to="/cartpage">
+      <Link to="/cartpage"> <div className='badge'>{totalItems}</div>
+        
           <ShoppingCartIcon style={{ fontSize: '6vh', color: 'black' }} />
         </Link>
       </div>
