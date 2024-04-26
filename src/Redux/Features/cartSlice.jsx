@@ -483,13 +483,6 @@ const initialState = {
       {
         id: 57,
         pname: "Tv 1",
-        price: 1500,
-        category: "Tv",
-        image: Tv1,
-      },
-      {
-        id: 57,
-        pname: "Tv 1",
         price: 15000,
         category: "Tv",
         image: Tv1,
@@ -565,7 +558,7 @@ const initialState = {
         image: Watch1,
       },
       {
-        id: 8,
+        id: 68,
         pname: "Watch 2",
         price: 2000,
         category: "Watch",
@@ -613,8 +606,9 @@ const initialState = {
         category: "Watch",
         image: Watch8,
       },
+     
     
-  ],
+  ], filteredProducts:[]
  
 };
 
@@ -622,10 +616,20 @@ const cartSlice = createSlice({
   name: 'cart',
   initialState, 
   reducers: {
-   
+    filterByCategory(state, action) {
+      const { categories } = action.payload;
+      if (categories.length === 0) {
+        state.filteredProducts = [...state.products];
+      } else {
+        state.filteredProducts = state.products.filter((product) =>
+          categories.includes(product.category)
+        );
+      }
+    }, 
   }
 });
 
+export const{filterByCategory}= cartSlice.actions;
+
 
 export default cartSlice.reducer;
-
